@@ -1,0 +1,23 @@
+{
+    "name": "gecco/sa-sdk",
+    "description": "This is the official PHP SDK for Sensors Analytics.",
+    "type": "library",
+    "keywords": ["sdk","Sensors Analytics"],
+    "homepage": "http://github.com/anjestar/sa-sdk",
+    "license": "MIT",
+    "autoload": {
+        "psr-4":{
+            "Gecco\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.2.0"
+    },
+    "authors": [
+        {
+            "name": "liuxin",
+            "email": "up.lxin@gmail.com"
+        }
+    ],
+   "minimum-stability":"dev"
+}
